@@ -1,0 +1,34 @@
+state_id,human_label,band,remaining_K_before,remaining_K_after,transition_k,exit_distance,front,chain_status,residue_pair_mod16,residue_pair_mod32
+S000,MISSING,MISSING,,,,,,,,
+S001,128-255 | 128->127 | k1 | d0 | lower | caught | r16 0->15,128-255,128,127,1,0,lower_edge_front,caught,0->15,0->31
+S002,128-255 | 129->127 | k2 | d1 | lower | avoid_then_caught | r16 1->15,128-255,129,127,2,1,lower_edge_front,avoid_then_caught,1->15,1->31
+S003,128-255 | 129->127 | k2 | d1 | lower | caught | r16 1->15,128-255,129,127,2,1,lower_edge_front,caught,1->15,1->31
+S004,128-255 | 131->125 | k6 | d3 | near | caught | r16 3->13,128-255,131,125,6,3,near_exit_front,caught,3->13,3->29
+S005,128-255 | 131->126 | k5 | d3 | near | avoid_then_caught | r16 3->14,128-255,131,126,5,3,near_exit_front,avoid_then_caught,3->14,3->30
+S006,128-255 | 131->127 | k4 | d3 | near | avoid_then_caught | r16 3->15,128-255,131,127,4,3,near_exit_front,avoid_then_caught,3->15,3->31
+S007,128-255 | 131->127 | k4 | d3 | near | caught | r16 3->15,128-255,131,127,4,3,near_exit_front,caught,3->15,3->31
+S008,128-255 | 132->126 | k6 | d4 | near | avoid_then_caught | r16 4->14,128-255,132,126,6,4,near_exit_front,avoid_then_caught,4->14,4->30
+S009,128-255 | 133->127 | k6 | d5 | near | avoid_then_caught | r16 5->15,128-255,133,127,6,5,near_exit_front,avoid_then_caught,5->15,5->31
+S010,16-31 | 17->15 | k2 | d1 | lower | avoid | r16 1->15,16-31,17,15,2,1,lower_edge_front,avoid,1->15,17->15
+S011,16-31 | 18->14 | k4 | d2 | near | avoid | r16 2->14,16-31,18,14,4,2,near_exit_front,avoid,2->14,18->14
+S012,32-63 | 32->29 | k3 | d0 | lower | avoid_then_caught | r16 0->13,32-63,32,29,3,0,lower_edge_front,avoid_then_caught,0->13,0->29
+S013,32-63 | 32->30 | k2 | d0 | lower | avoid_then_caught | r16 0->14,32-63,32,30,2,0,lower_edge_front,avoid_then_caught,0->14,0->30
+S014,32-63 | 33->31 | k2 | d1 | lower | avoid_then_caught | r16 1->15,32-63,33,31,2,1,lower_edge_front,avoid_then_caught,1->15,1->31
+S015,4-7 | 4->0 | k4 | d0 | lower | avoid_then_caught | r16 4->0,4-7,4,0,4,0,lower_edge_front,avoid_then_caught,4->0,4->0
+S016,4-7 | 4->0 | k4 | d0 | lower | caught | r16 4->0,4-7,4,0,4,0,lower_edge_front,caught,4->0,4->0
+S017,64-127 | 64->63 | k1 | d0 | lower | avoid_then_caught | r16 0->15,64-127,64,63,1,0,lower_edge_front,avoid_then_caught,0->15,0->31
+S018,64-127 | 65->63 | k2 | d1 | lower | avoid_then_caught | r16 1->15,64-127,65,63,2,1,lower_edge_front,avoid_then_caught,1->15,1->31
+S019,64-127 | 67->60 | k7 | d3 | near | avoid_then_caught | r16 3->12,64-127,67,60,7,3,near_exit_front,avoid_then_caught,3->12,3->28
+S020,64-127 | 67->61 | k6 | d3 | near | avoid_then_caught | r16 3->13,64-127,67,61,6,3,near_exit_front,avoid_then_caught,3->13,3->29
+S021,64-127 | 67->62 | k5 | d3 | near | avoid_then_caught | r16 3->14,64-127,67,62,5,3,near_exit_front,avoid_then_caught,3->14,3->30
+S022,64-127 | 67->62 | k5 | d3 | near | caught | r16 3->14,64-127,67,62,5,3,near_exit_front,caught,3->14,3->30
+S023,64-127 | 67->63 | k4 | d3 | near | avoid_then_caught | r16 3->15,64-127,67,63,4,3,near_exit_front,avoid_then_caught,3->15,3->31
+S024,64-127 | 68->61 | k7 | d4 | near | avoid | r16 4->13,64-127,68,61,7,4,near_exit_front,avoid,4->13,4->29
+S025,64-127 | 68->62 | k6 | d4 | near | avoid | r16 4->14,64-127,68,62,6,4,near_exit_front,avoid,4->14,4->30
+S026,64-127 | 68->63 | k5 | d4 | near | avoid | r16 4->15,64-127,68,63,5,4,near_exit_front,avoid,4->15,4->31
+S027,64-127 | 69->61 | k8 | d5 | near | avoid | r16 5->13,64-127,69,61,8,5,near_exit_front,avoid,5->13,5->29
+S028,64-127 | 69->62 | k7 | d5 | near | avoid | r16 5->14,64-127,69,62,7,5,near_exit_front,avoid,5->14,5->30
+S029,64-127 | 70->63 | k7 | d6 | near | avoid | r16 6->15,64-127,70,63,7,6,near_exit_front,avoid,6->15,6->31
+S030,64-127 | 71->62 | k9 | d7 | near | avoid | r16 7->14,64-127,71,62,9,7,near_exit_front,avoid,7->14,7->30
+S031,8-15 | 9->4 | k5 | d1 | lower | avoid | r16 9->4,8-15,9,4,5,1,lower_edge_front,avoid,9->4,9->4
+S032,8-15 | 9->7 | k2 | d1 | lower | avoid | r16 9->7,8-15,9,7,2,1,lower_edge_front,avoid,9->7,9->7
