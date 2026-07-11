@@ -1,0 +1,5 @@
+position_pair,bundle_string,row_count,observation_count,unique_source_state_count,unique_target_state_count,unique_delta_pattern_count,unique_source_face_count,stability_label
+-4->-3,all_except_chain_status,9,18,4,3,8,4,frequent_but_diverse
+-4->-3,all_features,9,18,8,3,9,8,frequent_but_diverse
+-4->-3,band+R_before+R_after,1,12,1,1,1,1,sparse
+-4->-3,band+R_before+R_after+transition_k+residue16+residue32,3,52,1,2,2,1,stable_candidate
