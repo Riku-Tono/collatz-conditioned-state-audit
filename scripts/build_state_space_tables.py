@@ -9,9 +9,14 @@ from pathlib import Path
 from statistics import median
 
 
-HERE = Path(r"C:\Users\yauki\Documents\Codex\2026-07-06\b004-b001-b001-b004-b004-10")
-PREV = Path(r"C:\Users\yauki\Documents\Codex\2026-07-06\2026-07-06-codex-codex-1\outputs")
-OUT = HERE / "outputs"
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+SOURCE_DIR = ROOT / "source"
+STATE_SPACE_DIR = ROOT / "state-space"
+POSITION_AUDIT_DIR = ROOT / "position-audit"
+OUT = ROOT / "conditioned-audit"
 
 STATE_DICT = PREV / "local_state_automaton" / "local_state_dictionary.csv"
 WORDS = PREV / "local_state_automaton" / "local_state_words_by_pair.csv"
