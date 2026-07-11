@@ -1,0 +1,5 @@
+level,condition_count,source_row_count,function_like_count,weak_branching_count,strong_branching_count,function_like_share
+F_x,1,30,24,2,4,0.8
+F_p_x,5,30,24,2,4,0.8
+F_p_side_x,10,38,31,2,5,0.815789
+F_p_side_basin_x,36,56,56,0,0,1.0
