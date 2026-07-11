@@ -1,0 +1,8 @@
+bundle_string,row_count,observation_count,unique_source_state_count,unique_target_state_count,unique_delta_pattern_count,unique_source_face_count,stability_label
+all_except_chain_status,15,106,10,7,15,10,frequent_but_diverse
+all_except_front,3,104,3,3,3,3,frequent_but_diverse
+all_features,14,98,13,6,14,13,frequent_but_diverse
+band+R_before+R_after+transition_k+residue16+residue32,2,52,1,2,2,1,sparse
+band+R_before+R_after+chain_status+residue32,1,24,1,1,1,1,sparse
+band+R_before+R_after+residue16+residue32,1,24,1,1,1,1,sparse
+band+R_before+R_after,1,12,1,1,1,1,sparse
